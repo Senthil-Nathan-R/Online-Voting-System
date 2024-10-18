@@ -1,0 +1,118 @@
+@charset "UTF-8";
+*{
+	margin:0px;
+	padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+        --Primary-Color1:#354F8E ;
+    --Secondary-Color2:#EFF5F9 ;
+    --Accent-Color: #000000  ;
+
+    
+}
+.register-section{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--Primary-Color1);
+    padding:20px
+}
+.register-heading{
+	    color:var(--Secondary-Color2);
+}
+.back-btn button{
+	    padding: 10px;
+    background-color:var(--Primary-Color1);
+    color:var(--Secondary-Color2);
+    font-weight: bolder;
+    border:1px solid var(--Secondary-Color2);
+    font-weight:bolder ;
+    font-size: 15px;
+}
+.back-btn button:hover{
+    color: var(--Primary-Color);
+    border: 1px solid var(--Secondary-Color2);
+    background-color: var(--Secondary-Color2);
+}
+.register-form{
+	margin:10px;
+	padding:40px;
+	background-color:var(--Secondary-Color2);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+h3{
+	
+	font-size:25px;
+	margin-bottom:30px;
+	text-decoration: 2px underline var(--Primary-Color1);
+}
+.register-form label{
+    font-size: 17px;
+}
+.register-form input{
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 16px;
+} 
+
+.register-form button{
+    padding:10px 20px;
+    border: 2px solid var(--Primary-Color1);
+    background-color: var(--Primary-Color1);
+    color: var(--Secondary-Color2);
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.register-form button:hover{
+    background-color:var(--Secondary-Color2);
+    color: var(--Primary-Color1);
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.form2{
+	display:flex;
+	padding-inline:40px;
+	justify-content:space-between;
+	margin-bottom:15px
+}
+.register-form .field2{
+    width: 50%;
+    
+}
+.form3{
+	display:flex;
+	justify-content:space-between;
+	margin-bottom:15px;
+	padding-inline:40px;
+}
+.register-form .field3{
+    width: 50%;
+    
+    
+}
+.form-1{
+	display:flex;
+	justify-content:space-between;
+	margin-bottom:5px;
+	padding-inline:40px;
+}
+.form-2{
+
+	margin-bottom:5px;
+	padding-inline:40px;
+}
+.register-form .field11{
+    width: 50%; 
+}
+.email{
+	margin-left:234px;
+}
+.register-form .field12{
+    width: 14%; 
+}

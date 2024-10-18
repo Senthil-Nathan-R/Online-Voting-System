@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+*{
+	margin:0px;
+	padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Register-section{
+	border-radius: 15px;
+    box-shadow: 0px 0px 5px 1px  black;
+	width:55%;
+	height:60vh;
+	display:flex;
+    overflow: hidden;
+    position: absolute;
+    top	:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+ 
+}
+
+.form-section{
+    
+    width: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    transition: 0.7s ease-in-out;
+}
+
+/*USED FOR JS ANIMATIONS*/
+.Register-section.active .form-section.signin{
+        transform: translateX(-832px);
+   
+}
+.Register-section.active .form-section.resetright{
+    transform: translateX(-832px);
+}
+
+/* SIGN IN PAGE */
+#signin-form{
+	width:55%;
+	height:100%;
+	background:white;
+    text-align: center;
+}
+#signin-form-element h1{
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 30px; 
+    margin-top: 45px;
+
+   
+}
+#signin-form-element input{
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 16px
+} 
+#forget-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    padding: 5px;
+    color: blue;
+    text-decoration: underline 1px blue;
+}
+#forget-btn:hover{
+    text-decoration: underline 1px red;
+    color:red;
+}
+#signin-form-element .btn{
+    padding:10px 20px;
+    border: 2px solid #1D2A4D;
+    background-color: #1D2A4D;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+#signin-form-element button:hover{
+    background-color: white;
+    color:#1D2A4D;
+}
+
+
+/*SIGN IN CONTENT */
+#signin-content{
+    width:45%;
+    height: 100%;
+    background-color:#1D2A4D;
+    color: white;
+    border-radius: 90px 0px 0px 90px ;
+    text-align: center;
+}
+#signin-content h1{
+    font-size: 30px;
+    margin-top: 40%;
+    font-weight: bolder;
+}
+#signin-content p{
+    font-size: 16px;
+    margin-top: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;  
+}
+#signin-content button{
+    padding:9px 18px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+/* RESET PASSWORD CONTENT */
+.resetright{
+    position:absolute;
+    left:832px;
+}
+#reset-content{
+    transition: 1s linear ease-in-out;
+    width:45%;
+    height: 440px;
+    background-color:#1D2A4D;
+    color: white;
+    border-radius: 0px 90px 90px 0px ;
+    text-align: center;
+}
+#reset-content h1{
+    font-size: 30px;
+    margin-top: 40%;
+    font-weight: bolder;
+}
+#reset-content p{
+    font-size: 16px;
+    margin-top: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    padding-inline: 10px;  
+}
+#reset-content button{
+    padding:9px 18px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+#reset-form-element a{
+    margin-top:5px;
+}
+
+/* RESET PASSWORD PAGE */
+#reset-form{
+	width:55%;
+	height:100%;
+	background:white;
+    text-align: center;
+}
+#reset-form-element h1{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 30px; 
+    margin-top: 30px;
+}
+#reset-form-element input{
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 16px
+} 
+#reset-form-element a{
+    margin-top: 20px;
+}
+#reset-form-element #submit{
+    padding:10px 20px;
+    border: 2px solid #1D2A4D;
+    background-color: #1D2A4D;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+#reset-form-element #submit:hover{
+    background-color: white;
+    color: #1D2A4D;
+}
+#reset-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    padding: 5px;
+    color: blue;
+    text-decoration: underline 1px blue;
+}
+#reset-btn:hover{
+	color:red;
+    text-decoration: underline 1px red;
+}

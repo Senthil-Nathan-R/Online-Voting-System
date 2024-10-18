@@ -1,0 +1,83 @@
+@charset "UTF-8";
+*{
+	margin:0px;
+	padding:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+:root{
+    --Primary-Color:#354F8E ;
+    --Secondary-Color:#EFF5F9 ;
+    --Accent-Color: #000000  ;
+    
+}
+h2{
+	font-size:30px;
+	padding:20px;
+}
+h3{
+	text-align:center;
+	font-size:25px;
+	margin-bottom:50px;
+	text-decoration: 3px underline var(--Primary-Color);
+}
+.main-div{
+	
+    margin:auto;
+    margin-bottom: 50px;
+    width: 70%;
+    padding: 20px;
+    background-color:var(--Secondary-Color);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position:relative;
+}
+.main-div .title , .date{
+    font-weight: bold;
+}
+.main-div h4{
+    font-size:20px;
+    margin-bottom: 20px;
+}
+.main-div .title{
+    margin-bottom: 10px;
+}
+.main-div span{
+    color: var(--Primary-Color);
+    font-weight: bold;
+}
+.main-div .date{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.main-div button{
+    padding:8px 20px;
+    border: 2px solid #354F8E;
+    background-color: #354F8E;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-right:10px;
+    opacity:0.9;
+}
+.main-div button:hover{
+    background-color: #EFF5F9;
+    color: #354F8E;
+}
+.btn{
+	display: flex;
+    margin-top: 20px;
+}
+.result-btn button{
+	margin-top:-38px;
+	position:absolute;
+	left:110px;
+	opacity:0.5;
+}
+.result-btn .active {
+	opacity:1;
+}
